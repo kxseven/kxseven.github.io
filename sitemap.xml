@@ -3,46 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>https://kxseven.github.io/</loc>
     <lastmod>2019-06-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/</loc>
+    <loc>https://kxseven.github.io/posts/</loc>
     <lastmod>2019-06-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/the-answer-is-not-more-aws/</loc>
+    <loc>https://kxseven.github.io/posts/the-answer-is-not-more-aws/</loc>
     <lastmod>2019-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/about/</loc>
+    <loc>https://kxseven.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>https://kxseven.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/contact/</loc>
+    <loc>https://kxseven.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/projects/</loc>
+    <loc>https://kxseven.github.io/projects/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>https://kxseven.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>https://kxseven.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
