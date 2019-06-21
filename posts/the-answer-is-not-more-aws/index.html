@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Hugh Mooney">
+    <meta name="description" content="There can be only Done">
+    <meta name="keywords" content="blog,professional,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The answer is not &#39;more AWS&#39;"/>
+<meta name="twitter:description" content="One of the hallmarks of a good politician is that when asked a question, instead of answering your question they answer one of their own, and in doing so control the conversation in the direction of their desired outcome.
+
+&ndash;add ref
+
+Sound familiar? It should be."/>
+
+    <meta property="og:title" content="The answer is not &#39;more AWS&#39;" />
+<meta property="og:description" content="One of the hallmarks of a good politician is that when asked a question, instead of answering your question they answer one of their own, and in doing so control the conversation in the direction of their desired outcome.
+
+&ndash;add ref
+
+Sound familiar? It should be." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/posts/the-answer-is-not-more-aws/" />
+<meta property="article:published_time" content="2019-06-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-06-13T00:00:00&#43;00:00"/>
+
+
+    
+      <base href="http://www.example.com/posts/the-answer-is-not-more-aws/">
+    
+    <title>
+  The answer is not &#39;more AWS&#39; · KXSEVEN
+</title>
+
+    
+      <link rel="canonical" href="http://www.example.com/posts/the-answer-is-not-more-aws/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="http://www.example.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="http://www.example.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://www.example.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.55.6" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://www.example.com">
+      KXSEVEN
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.example.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.example.com/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.example.com/contact/">Contact me</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">The answer is not &#39;more AWS&#39;</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-06-13T00:00:00Z'>
+                June 13, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              6 minutes read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        <p>One of the hallmarks of a good politician is that when asked a question, instead of answering your question they answer one of their own, and in doing so control the conversation in the direction of their desired outcome.</p>
+
+<p>&ndash;add ref</p>
+
+<p>Sound familiar? It should be.</p>
+
+<p>Of the things that I admire most about the teams of people that work at AWS, it&rsquo;s that they are always on-message. No matter the subject, no matter the workload, no matter the type of audience - the message is always the same: the answer to all your questions is <em>&ldquo;more AWS&rdquo;</em>.</p>
+
+<p>Granted, it isn&rsquo;t said that way - it&rsquo;s much more subtle than that but in order to lift the veil we first need to start with both a workload and a very common scenario;</p>
+
+<ul>
+<li>Customer has migrated their existing workload, which ran on their internal IT private cloud, to AWS</li>
+<li>The move to the cloud is done. Cloud adoption: CHECK!</li>
+<li>It feels like a win but the Customer&rsquo;s engineers are noting that the workload is not performing as well as they expected</li>
+<li>The Engineering team begin to investigate, treating the workload the same way they did when it ran on the internal private Cloud</li>
+<li>The pattern begins&hellip;</li>
+</ul>
+
+<p>With every additional step on the path to finding a solution to the problem there is an incremental number of AWS resources enabled, provisioned and configured, each with its own wonderful API and each API call with its own microtransaction cost.</p>
+
+<blockquote>
+<p><strong>Customer:</strong> We&rsquo;re running our application on EC2 and we&rsquo;re just not seeing the <code>EXPECTATION</code> we thought we would.</p>
+
+<p><strong>AWS:</strong> Have you considered enabling CloudWatch Detailed Monitoring to get granular metrics on how it&rsquo;s performing?</p>
+</blockquote>
+
+<p>A great answer no? How could granular compute, storage and network metrics not be useful?</p>
+
+<blockquote>
+<p><strong>Customer:</strong> We&rsquo;ve enabled Detailed Monitoring in CloudWatch for the EC2 instances and we are seeing spikes of high storage IO.</p>
+
+<p><strong>AWS:</strong> Have you considered switching some of your EBS Volumes to PIOPS to get the disk performance needed for your workload?</p>
+</blockquote>
+
+<p>Again, a great response. More performant storage volumes for the bursty IO profile your application needs to serve its growing user base.</p>
+
+<blockquote>
+<p><strong>Customer:</strong> Better storage performance isn&rsquo;t enough. We may need to scale up to give the server more &lsquo;oomph&rsquo; during those heavy load times.</p>
+
+<p><strong>AWS:</strong> Have you considered a different EC2 Instance Type with more memory and compute?</p>
+</blockquote>
+
+<p>If your app is resource bound how could it not be a good idea to give it more of the resources it desperately needs?</p>
+
+<blockquote>
+<p><strong>Customer:</strong> We think it might be a small number of users over-consuming the services but enabling more logging adds to our storage load.</p>
+
+<p><strong>AWS:</strong> Have you considered using CloudWatch Logs to have your app write directly to our dedicated logging service?</p>
+</blockquote>
+
+<p>Fabulous! I&rsquo;ve not got scalable centralized logging that I can use to give my developers a single view of all running application instances.</p>
+
+<p>Sure, none of these individual services cost a huge amount in and of themselves but over time it does begin to add up;</p>
+
+<ul>
+<li>Data stored must be charged (S3, EBS)</li>
+<li>Data being encrypted before being stored at rest must be charged (KMS)</li>
+<li>Transferring the data from source to where it will be stored must be charged (Transfer costs)</li>
+</ul>
+
+<p>There is a secondary effect in that enabling the additional AWS resources (CloudWatch, EBS PIOPS, CloudWatch Logs) the customer has unknowingly created a pattern that they will follow for subsequent workloads migrated or created on AWS - &ldquo;We might need monitoring, logging and larger instance types, so let&rsquo;s enable those by default&rdquo;.</p>
+
+<p>Fast forward 6-8 months and now there are more workloads active on AWS, each with the &lsquo;defaults&rsquo;. It&rsquo;s generally about now that the Engineering team get a knock on the door from the folks in Finance asking about the size of the bill and whether or not it can be reduced.</p>
+
+<blockquote>
+<p><strong>AWS:</strong> Have you considered enabling Detailed Billing into an S3 Bucket and using our Cost Usage and Reporting API to better understand your costs?</p>
+</blockquote>
+
+<p>In Python there&rsquo;s a pattern and feature called <a href="https://realpython.com/primer-on-python-decorators/">decorators</a> whereby an action defined as a function can be enhanced by wrapping it in more functionality defined elsewhere as other functions. In essence it&rsquo;s the building of Russian nesting dolls where your final function is the smallest doll at the center.</p>
+
+<ul>
+<li><p>Our own function performs the actual work</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#fff;font-weight:bold">def</span> do_workload(data): {
+    ... <span style="color:#007f7f"># The real work happens here</span>
+}</code></pre></div>
+<ul>
+<li>We can then add decorators to the function to perform additional actions</li>
+</ul>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">@decorate_ensure_requester_is_valid
+@decorate_collect_start_and_finish_metrics
+@decorate_log_data_payload_size
+<span style="color:#fff;font-weight:bold">def</span> do_workload(data): {
+    ... <span style="color:#007f7f"># The real work happens here</span>
+}</code></pre></div></li>
+</ul>
+
+<p>The take away here is that the core functionality of <code>do_workload()</code> is unchanged; it still performs exactly the same actions it did before being wrapped. If it was behaving badly before then it&rsquo;s behaving no better now.</p>
+
+<p>AWS are the decorators to your own product workload; they can&rsquo;t affect the core functionality of your own actions but they can add value by wrapping your workload in layers of other services and capabilities.</p>
+
+<p>Positive examples of using this pattern are use cases where the <code>do_workload()</code> is a packaged artifact that can be wrapped in decorators that add value vectors such as scale or availability;</p>
+
+<ul>
+<li>Autoscaling Groups for an AMI based EC2 workload</li>
+<li>EKS providing the same for Dockerized workloads</li>
+<li>RDS providing the same for DB  workloads</li>
+</ul>
+
+<p>The difference is that we&rsquo;re building and deploying cloud native workloads on AWS.</p>
+
+<p>In the case of our migrated workload, we have managed the symptoms instead rather than addressing and fixing the real problem - which is that we have somehow managed to move our workload to AWS without really understanding (1) what we required in the first place or (2) how to make best use of the elasticity that IaaS offers.</p>
+
+<p>In all of the interactions with AWS to improve our situation we have failed to notice that AWS have answered their own question (How can you spend more on AWS?), not yours.</p>
+
+<p>The answer is not <em>&ldquo;more AWS&rdquo;</em> - It&rsquo;s <em>&ldquo;Your workload in its current form is not cost effective on AWS and what you really need is experienced professional help&rdquo;</em>.</p>
+
+<p>The answer to <em>your</em> question isn&rsquo;t a happy one, it doesn&rsquo;t make you feel good about migrating to AWS. It doesn&rsquo;t make you want to spend more on AWS and that&rsquo;s why you&rsquo;ll never hear AWS say it.</p>
+
+<p>What&rsquo;s most interesting is that if you step back far enough you can see this approach elsewhere in other businesses;</p>
+
+<ul>
+<li>IKEA: Marvel at the complete rooms on display, assembled from the packaged flatpacks - yet your own room at home never looks as decorative.</li>
+<li>DIY stores: As you walk around the display areas you marvel at the great examples constructed from the raw materials yet when you attempt the same at home it just doesn&rsquo;t look as polished.</li>
+</ul>
+
+<p>The jewel in the AWS crown is that when customers do experience challenges with their own workloads on AWS they instinctively react with the same habits they&rsquo;ve built up from years of operating the workload in private cloud; they call IT Support.</p>
+
+<blockquote>
+<p><strong>AWS:</strong> Have you considered enabling Enterprise Support to get dedicated and responsive support?</p>
+</blockquote>
+
+<p>Damn. Clever, clever bastards.</p>
+      </div>
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Mostly nearly almost practically basically 80% of the way there never saved so much as a fucking sausage.</p>
+    
+     © 2019
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+       · 
+      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

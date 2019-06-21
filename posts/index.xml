@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on KXSEVEN</title>
+    <link>http://www.example.com/posts/</link>
+    <description>Recent content in Posts on KXSEVEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The answer is not &#39;more AWS&#39;</title>
+      <link>http://www.example.com/posts/the-answer-is-not-more-aws/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/posts/the-answer-is-not-more-aws/</guid>
+      <description>&lt;p&gt;One of the hallmarks of a good politician is that when asked a question, instead of answering your question they answer one of their own, and in doing so control the conversation in the direction of their desired outcome.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;add ref&lt;/p&gt;
+
+&lt;p&gt;Sound familiar? It should be.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
